@@ -66,7 +66,7 @@ class Unipus:
 
         data = {
             "ItemID": key["ItemID"],
-            "answer[]": answer[0:4],
+            "answer[]": answer,
         }
         # log.info(data)
 
@@ -91,9 +91,9 @@ class Unipus:
 
 unipus = Unipus()
 unipus.login()
-unipus.book(184, 791)
-unipus.answer(7,3,6)
-# unipus.answer(7,5,5)
+unipus.book(184, 712)
+unipus.answer(8,2,2)
+unipus.answer(4,3,3)
 
 # for i in range(1, 9):
 #     for j in count(1):
